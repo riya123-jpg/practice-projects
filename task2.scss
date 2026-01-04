@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  background-color: #0f0f0f;
+  height: 100%;
+}
+html {
+  font-size: clamp(14px, 1.5vw, 18px);
+}
+main {
+  width: 100%;
+  // height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  section {
+    max-width: 1900px;
+    padding: 10px;
+    width: 94%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    .top {
+      img {
+        border-radius: 10px;
+        width: 100%;
+      }
+    }
+    .bottom {
+      //   margin-top: 5px;
+      color: white;
+      background-color: #181818;
+      border-radius: 10px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      //   width: 100%;
+      .top {
+        padding: 20px 20px 50px 20px;
+      }
+      .seco {
+        font-family: cursive;
+        font-size: 1rem;
+        font-weight: 100;
+        padding: 20px;
+        p {
+          color: rgb(99, 99, 99);
+          padding: 20px 0px;
+          font-size: 20px;
+          width: 100%;
+        }
+        button {
+          font-size: 15px;
+          border-radius: 10px;
+          padding: 10px 15px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 900px) {
+  main {
+    // background-color: red;
+    // display: flex;
+    section {
+      width: 98%;
+      // height: 50%;
+      gap: 15px;
+      flex-direction: row;
+      .top,
+      .bottom {
+        width: 50%;
+      }
+      .bottom {
+        justify-content: space-between;
+        padding: 40px;
+        .seco {
+          h1 {
+            font-size: 40px;
+          }
+        }
+      }
+    }
+    section {
+      max-width: 1900px;
+      .view2 {
+        flex-direction: row;
+        padding: 1rem 3rem;
+      }
+      .to,
+      .bo {
+        .element {
+          padding: 1rem 4rem;
+        }
+      }
+    }
+    section {
+      .pic {
+        width: 100%;
+        flex-direction: row-reverse;
+        gap: 20px;
+        // padding: 2rem 0rem;
+        .se {
+          .se1 {
+            padding: 3rem 1rem 14rem 1rem;
+          }
+          .se2 {
+            // margin-top: 200px;
+            padding: 0px 20px;
+            h1 {
+              font-size: 40px;
+              width: 80%;
+              padding-bottom: 20px;
+            }
+            .pul {
+              // display: flex;
+              flex-direction: row;
+              gap: 10px;
+              justify-content: space-around;
+              .p1,
+              .p2 {
+                width: 50%;
+              }
+            }
+          }
+        }
+        .fi,
+        .se {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+section {
+  .view2 {
+    padding: 20px 5px;
+    display: flex;
+    flex-direction: column;
+    .to,
+    .bo {
+      display: flex;
+      justify-content: space-around;
+      .element {
+        h4 {
+          color: rgb(74, 74, 74);
+        }
+        h1 {
+          text-align: center;
+          padding: 5px 5px 25px 5px;
+          color: white;
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+}
+section {
+  .pic {
+    gap: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    // width: 100%;
+    .fi {
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
+    .se {
+      border-radius: 20px;
+      background-color: #181818;
+      font-family: cursive;
+      font-size: 1rem;
+      color: white;
+      font-weight: 100;
+      padding: 20px;
+      .se1 {
+        font-size: 12px;
+        padding: 20px 10px 30px 0px;
+      }
+      h1 {
+        font-size: 33px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .se2 {
+        .pul {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      .p1,
+      .p2 {
+        color: rgb(99, 99, 99);
+        // padding: 20px 0px;
+        font-size: 16px;
+        line-height: 25px;
+        width: 100%;
+      }
+    }
+  }
+}
+footer {
+  .per {
+    display: flex;
+    width: 100%;
+    color: white;
+    .card {
+      width: 100%;
+      // height: 100%;
+      border-radius: 20px;
+      padding: 1rem;
+      background-size: cover;
+      background-image: url("https://images.unsplash.com/photo-1758505805277-6eb6869a9c1f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDUxfHRvd0paRnNrcEdnfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&q=60&w=600");
+    }
+  }
+}

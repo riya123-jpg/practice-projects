@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  background-color: #0f0f0f;
+  height: 100%;
+}
+
+html {
+  font-size: clamp(14px, 1.5vw, 18px);
+}
+
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main section {
+  max-width: 1900px;
+  padding: 10px;
+  width: 94%;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+main section .top img {
+  border-radius: 10px;
+  width: 100%;
+}
+main section .bottom {
+  color: white;
+  background-color: #181818;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+main section .bottom .top {
+  padding: 20px 20px 50px 20px;
+}
+main section .bottom .seco {
+  font-family: cursive;
+  font-size: 1rem;
+  font-weight: 100;
+  padding: 20px;
+}
+main section .bottom .seco p {
+  color: rgb(99, 99, 99);
+  padding: 20px 0px;
+  font-size: 20px;
+  width: 100%;
+}
+main section .bottom .seco button {
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+@media (min-width: 900px) {
+  main section {
+    width: 98%;
+    gap: 15px;
+    flex-direction: row;
+  }
+  main section .top,
+  main section .bottom {
+    width: 50%;
+  }
+  main section .bottom {
+    justify-content: space-between;
+    padding: 40px;
+  }
+  main section .bottom .seco h1 {
+    font-size: 40px;
+  }
+  main section {
+    max-width: 1900px;
+  }
+  main section .view2 {
+    flex-direction: row;
+    padding: 1rem 3rem;
+  }
+  main section .to .element,
+  main section .bo .element {
+    padding: 1rem 4rem;
+  }
+  main section .pic {
+    width: 100%;
+    flex-direction: row-reverse;
+    gap: 20px;
+  }
+  main section .pic .se .se1 {
+    padding: 3rem 1rem 14rem 1rem;
+  }
+  main section .pic .se .se2 {
+    padding: 0px 20px;
+  }
+  main section .pic .se .se2 h1 {
+    font-size: 40px;
+    width: 80%;
+    padding-bottom: 20px;
+  }
+  main section .pic .se .se2 .pul {
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+  }
+  main section .pic .se .se2 .pul .p1,
+  main section .pic .se .se2 .pul .p2 {
+    width: 50%;
+  }
+  main section .pic .fi,
+  main section .pic .se {
+    width: 50%;
+  }
+}
+section .view2 {
+  padding: 20px 5px;
+  display: flex;
+  flex-direction: column;
+}
+section .view2 .to,
+section .view2 .bo {
+  display: flex;
+  justify-content: space-around;
+}
+section .view2 .to .element h4,
+section .view2 .bo .element h4 {
+  color: rgb(74, 74, 74);
+}
+section .view2 .to .element h1,
+section .view2 .bo .element h1 {
+  text-align: center;
+  padding: 5px 5px 25px 5px;
+  color: white;
+  font-size: 2.5rem;
+}
+
+section .pic {
+  gap: 10px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+section .pic .fi img {
+  width: 100%;
+  border-radius: 10px;
+}
+section .pic .se {
+  border-radius: 20px;
+  background-color: #181818;
+  font-family: cursive;
+  font-size: 1rem;
+  color: white;
+  font-weight: 100;
+  padding: 20px;
+}
+section .pic .se .se1 {
+  font-size: 12px;
+  padding: 20px 10px 30px 0px;
+}
+section .pic .se h1 {
+  font-size: 33px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+section .pic .se .se2 .pul {
+  display: flex;
+  flex-direction: column;
+}
+section .pic .se .p1,
+section .pic .se .p2 {
+  color: rgb(99, 99, 99);
+  font-size: 16px;
+  line-height: 25px;
+  width: 100%;
+}
+
+footer .per {
+  display: flex;
+  width: 100%;
+  color: white;
+}
+footer .per .card {
+  width: 100%;
+  border-radius: 20px;
+  padding: 1rem;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1758505805277-6eb6869a9c1f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDUxfHRvd0paRnNrcEdnfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&q=60&w=600");
+}/*# sourceMappingURL=task2.css.map */
